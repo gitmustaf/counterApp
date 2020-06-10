@@ -1,0 +1,11 @@
+.center {
+    margin-top:15%;
+    margin-left: 25%;
+    text-align:center;
+    width: 50%;
+  }
+
+.center-tile {
+    width: 50%;
+    margin-left: 25% !important;
+}

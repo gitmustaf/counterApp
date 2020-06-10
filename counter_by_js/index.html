@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Simple Counter By JS</title>
+        <script src="./main.js"></script>
+        <link rel="stylesheet" href="./master.css" />
+        
+        <!--Loading bulma css-->
+        <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">
+    </head>
+    <body>
+        <div class="center">
+            <div class="card">  
+                
+                <header class="card-header">
+                    <p class="card-header-title">
+                        <i class="fas fa-infinity"></i> &nbsp;
+                         Demo of simple counter with vanilla JS
+                    </p>
+                </header>
+
+                <div class="card-content has-background-grey-lighter">
+                    <div class="content">
+                        <div class="tile is-ancestor center-tile ">
+                            <div class="tile is-parent ">
+                              <article class="tile is-child box">
+                                <span class="title is-1" id="prinCount">0</span>
+                              </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <footer class="card-footer">
+                    <div class="buttons card-footer-item">
+                        <button id="decrement" class="button is-danger is-rounded is-normal" onClick="hendaleDecrement()">
+                            <i class="fas fa-angle-double-down"></i>
+                        </button>
+                        <button id="increment" class="button is-info is-rounded is-normal" onclick="hendaleIncrement()">
+                            <i class="fas fa-angle-double-up"></i>
+                        </button>
+                    </div>
+                </footer>
+            
+            </div>
+        </div>
+    </body>
+</html>
